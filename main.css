@@ -1,0 +1,177 @@
+body {
+  background-color: darkslategrey;
+}
+
+button {
+  cursor: pointer;
+}
+section {
+  background-color:lightgrey;
+}
+h1 {
+  color: gainsboro;
+}
+h2 {
+  color: peru;
+}
+p {
+  color: wheat;
+}
+
+/*playing with text decorations*/
+.one {
+  width: 50%;
+  font-family: Tahoma;
+}
+.one > p {
+  color: black;
+  font-size: 35px;
+  font-weight: bold;
+  padding: 10px 10px;
+}
+.two {
+  width: 65%;
+  font-family: Arial;
+}
+.two > p {
+  color: black;
+  font-size: 38px;
+  font-weight: bold;
+  padding: 5px;
+}
+.two > p > span {
+  font-size: 30px;
+  color: rgb(196, 53, 53);
+  font-weight: lighter;
+  font-style: italic;
+}
+.three {
+  width: 55%;
+  font-family: verdana;
+  padding: 0 10px;
+}
+.title {
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 0;
+  border-bottom: 0;
+}
+.title > span {
+  color: grey;
+  font-size: 20px;
+  font-weight: lighter;
+}
+.description {
+  color: black;
+  font-size: 23px;
+}
+.join {
+  font-size: 18px;
+  color: whitesmoke;
+  background-color: green;
+  border-radius: 8px;
+  padding: 10px 25px;
+  margin-bottom: 15px;
+}
+.four {
+  width: 65%;
+  font-family: arial;
+  text-align: center;
+}
+.question {
+  color: black;
+  font-size: 33px;
+  font-weight: bold;
+  padding: 10px 1px 1px 1px;
+  margin-bottom: 0;
+}
+.response {
+  color: black;
+  font-size: 20px;
+}
+.link {
+  color: blue;
+  padding-bottom: 15px;
+  font-size: 20px;
+}
+/*playing with buttons */
+
+.uber {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  width: 140px;
+  height: 55px;
+  margin-right: 10px;
+}
+.amazon {
+  background-color: rgb(255, 216, 20);
+  color: black;
+  font-size: 18px;
+  font-weight: 200;
+  width: 240px;
+  height: 45px;
+  border-radius: 20px;
+  transition: background-color 1s, color 0.15s;
+}
+.github {
+  background-color: rgb(46,164,79);
+  color:rgb(231, 225, 225);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  width: 130px;
+  height: 50px;
+  border-radius: 10px;
+  margin-left: 10px;
+  transition: box-shadow 0.5s;
+}
+.boots {
+  background-color:rgb(121,82,179);
+  color: white;
+  font-size: 19px;
+  font-weight: 600;
+  width: 160px;
+  height: 55px;
+  border-radius: 8px;
+  transition: opacity 0.15s;
+}
+.download {
+  background-color:white;
+  color:grey;
+  font-size: 19px;
+  font-weight: 600;
+  width: 160px;
+  height: 55px;
+  border-radius: 8px;
+}
+.linkedin {
+  background-color: rgb(10,102,194);
+  color:white;
+  font-size: 19px;
+  font-weight: 600;
+  width: 320px;
+  height: 60px;
+  border-radius: 25px;
+}
+/*hovers, transitions and shadows */
+
+
+/*transition by chaning the opacity value */
+.boots:hover {
+  opacity: 0.2;
+}
+.boots:active {
+  opacity: 0.5;
+}
+/*trnasition by changing the background color and the color with 1s transtion set at the main button css*/
+.amazon:hover {
+  background-color: black;
+  color: rgb(255, 216, 20);
+}
+
+/*shadow when hovering over using box-shadow property and the transition set up at the original button*/
+.github:hover {
+  box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.5);
+}
