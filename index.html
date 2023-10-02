@@ -4,15 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="main.css" type="text/css" />
-    <link rel="shortcut icon" href="/HTML/logo.jpg" type="image/x-icon" />
-    <title>Intro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="/resources/logo.jpg" type="image/x-icon" />
+    <title>Exercises</title>
   </head>
   <body>
+    <img src="/resources/logo_fullstack.png" alt="fullstack icon" />
+    <input class="search-bar" placeholder="Search for exercises" />
+
     <h1>Hands on Exercises</h1>
+
     <h2>Exercise 1</h2>
-    <p>Recreate the following Text from websites</p>
+    <p>Recreate the following Text screenshots from websites</p>
     <section class="one">
-      <p>This is Tahoma Font</p>
+      <p>This is a Roboto Font</p>
     </section>
 
     <section class="two">
@@ -23,8 +33,10 @@
     </section>
 
     <section class="three">
-      <p class="title">HTML CSS course<br />
-      <span>Beginner to Pro</span></p>
+      <p class="title">
+        HTML CSS course<br />
+        <span>Beginner to Pro</span>
+      </p>
       <p class="description">
         In this course, we'll learn the skills you need to become a developer.
       </p>
@@ -39,20 +51,68 @@
 
     <h2>Exercise 2</h2>
     <p>
-      copy the buttons from a couple of well known websites with out inspecting
-      the source(minimum 3)
+      Create a video preview grid with three coloumn to mimic youtube(minimum 6
+      video previews)
     </p>
+
+    <div class="previews">
+      <div>
+        <video
+          src="./resources/videos/Unsung Hero.mp4"
+          title="Unsng Hero"
+          controls
+        ></video>
+      </div>
+      <div>
+        <video
+          src="./resources/videos/Doritos Sumo Ad.mp4"
+          title="Doritos Sumo"
+          controls
+        ></video>
+      </div>
+      <div>
+        <video
+          src="./resources/videos/RUN - Inspirational Running Video HD.mp4"
+          title="Inspirational Running"
+          controls
+        ></video>
+      </div>
+
+      <div>
+        <video
+          src="./resources/videos/Super Funny Dog Commercial.mp4"
+          title="Funny Dog"
+          controls
+        ></video>
+      </div>
+      <div>
+        <video
+          src="./resources/videos/TITAN -The Joy of Gifting.mp4"
+          title="The joy of gifting"
+          controls
+        ></video>
+      </div>
+      <div>
+        <video
+          src="./resources/videos/funny commercials.mp4"
+          title="funny commercial collections"
+          controls
+        ></video>
+      </div>
+    </div>
+
+    <h2>Exercise 3</h2>
+    <p>Copy the buttons from a couple of well known websites by taking the
+      screenshots with out inspecting the source(minimum 3)</p>
+      
     <button class="uber" title="Uber">Request now</button>
     <button class="download" title="Download">Download</button>
     <button class="linkedin" title="LinkedIn">Apply on company website</button>
 
-    <h2>Exercise 3</h2>
-    <p>
-      create a hover,transition and shadow effects for three more 
-      buttons</p>
+    <h2>Exercise 4</h2>
+    <p>Create a hover,transition and shadow effects for three more buttons</p>
     <button class="boots" title="Bootstarp">Get started</button>
     <button class="amazon" title="Amazon">Add to Cart</button>
     <button class="github" title="Github">Sign up</button>
-  
   </body>
 </html>

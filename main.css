@@ -7,9 +7,32 @@ button {
 }
 section {
   background-color:lightgrey;
+  border-radius: 10px;
+
+}
+img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  vertical-align: middle;
+  border: 3px solid lightgray;
+}
+.search-bar {
+  font-size: 20px;
+  vertical-align: middle;
+  margin-left: 10px;
+  border-radius: 8px;
+  border-style: none;
+  transition: box-shadow 0.15s;
+}
+.search-bar:hover {
+  background-color: peru;
+  color: aliceblue;
+  box-shadow: 2px 2px rgba(228, 234, 233, 0.1);
 }
 h1 {
   color: gainsboro;
+  margin:0;
 }
 h2 {
   color: peru;
@@ -17,11 +40,19 @@ h2 {
 p {
   color: wheat;
 }
+div {
+  display: inline-block;
+}
+video {
+  width: 100%;
+  cursor: pointer;
+
+}
 
 /*playing with text decorations*/
 .one {
   width: 50%;
-  font-family: Tahoma;
+  font-family: Roboto;
 }
 .one > p {
   color: black;
@@ -154,11 +185,12 @@ p {
   width: 320px;
   height: 60px;
   border-radius: 25px;
+  margin-left: 10px;
 }
 /*hovers, transitions and shadows */
 
 
-/*transition by chaning the opacity value */
+/*creating transition by chaning the opacity value */
 .boots:hover {
   opacity: 0.2;
 }
@@ -174,4 +206,12 @@ p {
 /*shadow when hovering over using box-shadow property and the transition set up at the original button*/
 .github:hover {
   box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.5);
+}
+/* CSS Grids*/
+
+.previews {
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  column-gap: 50px;
+  row-gap: 20px;
 }
